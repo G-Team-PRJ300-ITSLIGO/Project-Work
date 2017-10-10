@@ -26,43 +26,56 @@ public class DamageSystem : MonoBehaviour
 
 	void Damage(GameObject objToTakeDMG)
 	{
+		if(objToTakeDMG.GetComponentInParent<HealthSystem>() != null)
 		objToTakeDMG.GetComponent<HealthSystem>().TakeDamage (objToTakeDMG, damageAmount);
-		if(objToTakeDMG.tag == "Player")
-		{
-			CheckIfDead (objToTakeDMG);
-		}
+		CheckIfDead (objToTakeDMG);
+	}
+
+	public void addScore(int score)
+	{
+		GC.AddScore (score);
 	}
 
 	public void CheckIfDead(GameObject objToCheck)
 	{
+		if(objToCheck.GetComponentInParent<HealthSystem>() != null)
 		if (objToCheck.GetComponent<HealthSystem>().health <= 0) 
 		{
-			GetComponent<DestroyOnCollision> ().PlayerKill (objToCheck);
+			GetComponent<DestroyOnCollision> ().ObjectKill (objToCheck);
 		}
 	}
 
 	//Checks who needs to receive damage by comparing tags of two objects
 	public void DetermineDamage(GameObject obj, GameObject other)
 	{
-		//Checks if Colliding object is player with enemy (Player will take damage)
-		if (obj.tag == "Player" && other.tag == "Enemy") {
-			Damage (obj);
-		} 
-		//Checks if Colliding object is enemy with player (Enemy will take damage)
-		else if (obj.tag == "Enemy" && other.tag == "Player") {
-			Damage (obj);
-		} else if (obj.tag == "Enemy" && other.tag == "Enemy") {
-			return;
-		} else if (obj.tag == "Enemy" && other.tag == "PlayerWeapon")
+		//Player takes damage from enemy
+		if (obj.tag == "Player" && other.tag == "Enemy")
 		{
 			Damage (obj);
-			Destroy (other);
+		} 
+		//Player takes damage from enemy's weapon
+		else if (obj.tag == "Player" && other.tag == "EnemyWeapon")
+		{
+			Damage (obj);
+		}
+		//If enemy collided with other enemy then do nothing
+		else if (obj.tag == "Enemy" && other.tag == "Enemy") 
+		{
+			return;
+		}
+		//if Enemy gets hit by player's weapon
+		else if (obj.tag == "Enemy" && other.tag == "PlayerWeapon")
+		{
+			Damage (obj);
+		}
+		else if (obj.tag == "PlayerWeapon" && other.tag == "Enemy")
+		{
+			Damage (other);
 		}
 		else 
 		{
 			GC.AddScore (scoreValue);
 		}
 
-		Destroy(gameObject);
 	}
 }
