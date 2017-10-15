@@ -46,15 +46,15 @@ public class DestroyOnCollision : MonoBehaviour
 			Destroy (obj.gameObject);
 			Destroy (gameObject);
 		}
-		else
-		{
-			Instantiate (obj.GetComponent<DestroyOnCollision>().playerExplosion, obj.transform.position, obj.transform.rotation);
-			obj.GetComponentInParent<DamageSystem> ().addScore (obj.GetComponentInParent<DamageSystem> ().scoreValue);
-			Destroy (obj.gameObject);
-			Destroy (gameObject);
-		}
+        else
+        {
+            Instantiate(obj.GetComponent<DestroyOnCollision>().playerExplosion, obj.transform.position, obj.transform.rotation);
+            obj.GetComponentInParent<DamageSystem>().addScore(obj.GetComponentInParent<DamageSystem>().scoreValue);
+            Destroy(obj.gameObject);
+            Destroy(gameObject);
+        }
 
-	}
+    }
 
 	//Collision Detection Script
 	void OnTriggerEnter(Collider other)
@@ -65,17 +65,18 @@ public class DestroyOnCollision : MonoBehaviour
 			return;
 		}
 
-		//For Destroying enemies and damaging them.
-		if (explosion != null) 
-		{
-			if(gameObject.GetComponentInParent<DamageSystem> () != null){
-				Instantiate (explosion, transform.position, transform.rotation);
-				gameObject.GetComponentInParent<DamageSystem> ().DetermineDamage (other.gameObject, gameObject);
-			}
-		}
+        //For Destroying enemies and damaging them.
+        if (explosion != null)
+        {
+            if (gameObject.GetComponentInParent<DamageSystem>() != null)
+            {
+                Instantiate(explosion, transform.position, transform.rotation);
+                gameObject.GetComponentInParent<DamageSystem>().DetermineDamage(other.gameObject, gameObject);
+            }
+        }
 
-		//Pickup System for restoring health.
-		if (gameObject.tag == "PickupHealth" || other.tag == "PickupHealth") 
+        //Pickup System for restoring health.
+        if (gameObject.tag == "PickupHealth" || other.tag == "PickupHealth") 
 		{
 			if (other.tag == "Player" || gameObject.tag == "Player") 
 			{
@@ -92,14 +93,20 @@ public class DestroyOnCollision : MonoBehaviour
 				return;
 			}
 		}
+        if (other.tag == "PlayerWeapon" && gameObject.tag == "PlayerWeapon")
+        {
+            return;
+        }
+            if (other.tag == "PlayerWeapon" || other.tag == "EnemyWeapon")
+            {
+                Destroy(other.gameObject);
+            }
+            if (gameObject.tag == "PlayerWeapon" || gameObject.tag == "EnemyWeapon")
+            {
+                Destroy(gameObject);
+            }
+       
 
-		if(other.tag == "PlayerWeapon" || other.tag == "EnemyWeapon")
-		{
-			Destroy (other.gameObject);
-		}
-		if(gameObject.tag == "PlayerWeapon" || gameObject.tag == "EnemyWeapon"){
-			Destroy (gameObject);
-		}
 
 		if(other.tag == "Player" && gameObject.tag == "Enemy"){
 			Destroy (gameObject);
