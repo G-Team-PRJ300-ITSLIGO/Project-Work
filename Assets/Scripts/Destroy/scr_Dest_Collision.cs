@@ -34,8 +34,14 @@ public class scr_Dest_Collision : MonoBehaviour {
 		{
 			Instantiate (obj.GetComponent<scr_Dest_Collision> ().explosion, obj.transform.position, obj.transform.rotation);
 			obj.GetComponentInParent<scr_DamageSystem> ().addScore (obj.GetComponentInParent<scr_DamageSystem> ().scoreValue);
-			Destroy (gameObject);
-			Destroy (obj.gameObject);
+
+			if(obj.GetComponentInParent<scr_HealthSystem>().health <= 0){
+				//Debug.Log (string.Format ("{0} health: {1}", obj.name, obj.GetComponentInParent<scr_HealthSystem> ().health));
+				Destroy (obj.gameObject);
+			}
+			else{
+				return;
+			}
 		}
 
 	}
@@ -52,7 +58,10 @@ public class scr_Dest_Collision : MonoBehaviour {
 		if(gameObject.tag == "Enemy" && other.gameObject.tag == "EnemyWeapon" || gameObject.tag == "EnemyWeapon" && other.gameObject.tag == "Enemy"){
 			return;
 		}
-
+		//Ignores the detection between Enemy and its own bullets or weapons as well as other enemy with other enemy's weapons.
+		if(gameObject.tag == "Player" && other.gameObject.tag == "PlayerWeapon" || gameObject.tag == "PlayerWeapon" && other.gameObject.tag == "Player"){
+			return;
+		}
 		///All Damage Related stuff is checked here.
 		//How these checks work:
 		//First of all, the check is done if there is any damage system assigned at all. If not, informs in console.
@@ -61,16 +70,26 @@ public class scr_Dest_Collision : MonoBehaviour {
 		//Lastly adds score for player.
 
 		//For Destroying enemies and damaging them.
-		if (gameObject.GetComponentInParent<scr_DamageSystem> () != null) 
+		if (gameObject.GetComponent<scr_DamageSystem> () != null) 
 			{
 				//Create exploision if assigned and needed.
 				if (gameObject.GetComponent<scr_Dest_Collision> ().explosion != null) 
 				{
 					Instantiate (gameObject.GetComponent<scr_Dest_Collision> ().explosion, gameObject.transform.position, gameObject.transform.rotation);
 				}
-				gameObject.GetComponentInParent<scr_DamageSystem> ().DetermineDamage (other.gameObject, gameObject);
+				gameObject.GetComponent<scr_DamageSystem> ().DetermineDamage (other.gameObject, gameObject);
 
 			}
+//		if(gameObject.tag == "Enemy" && other.tag == "PlayerWeapon")
+//		{
+//			//Create exploision if assigned and needed.
+//			if (gameObject.GetComponent<scr_Dest_Collision> ().explosion != null) 
+//			{
+//				Instantiate (gameObject.GetComponent<scr_Dest_Collision> ().explosion, gameObject.transform.position, gameObject.transform.rotation);
+//			}
+//			gameObject.GetComponentInParent<scr_DamageSystem> ().DetermineDamage (gameObject, other.gameObject);
+//
+//		}
 
 
 		//Pickup System for restoring health.
@@ -81,20 +100,20 @@ public class scr_Dest_Collision : MonoBehaviour {
 				gameObject.GetComponentInParent<scr_HealingPickups>().RestoreHealth (other.gameObject);
 				Destroy (gameObject);
 			}       
-			if (other.tag == "PlayerWeapon")
+			if (other.tag == "PlayerWeapon" || other.tag == "EnemyWeapon")
 			{
 				return;
 			}
 		}
 
-		//Next two Ifs check if either object is player weapon or enemy's weapon and just destroy each other without any special FX.
-		if(other.tag == "PlayerWeapon" || other.tag == "EnemyWeapon")
-		{
-			Destroy (other.gameObject);
-		}
-		if(gameObject.tag == "PlayerWeapon" || gameObject.tag == "EnemyWeapon"){
-			Destroy (gameObject);
-		}
+//		//Next two Ifs check if either object is player weapon or enemy's weapon and just destroy each other without any special FX.
+//		if(other.tag == "PlayerWeapon" || other.tag == "EnemyWeapon")
+//		{
+//			Destroy (other.gameObject);
+//		}
+//		if(gameObject.tag == "PlayerWeapon" || gameObject.tag == "EnemyWeapon"){
+//			Destroy (gameObject);
+//		}
 
 		if(other.tag == "Player" && gameObject.tag == "Enemy"){
 			Destroy (gameObject);

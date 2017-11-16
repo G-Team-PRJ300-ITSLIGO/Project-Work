@@ -11,7 +11,8 @@ public class scr_playerBehaviour : MonoBehaviour
 	public Rigidbody rb;
 
 	public GameObject[] WeaponTypes;
-	public Transform weaponSpawnerTrans;
+	public Transform LeftCannonTrans;
+	public Transform RightCannonTrans;
 
 	public float fireRate;
 	private float nextFire = 0.0f;
@@ -28,7 +29,9 @@ public class scr_playerBehaviour : MonoBehaviour
 				{
 					GameObject weaponShot = WeaponTypes[0];
 					nextFire = Time.time + fireRate;           
-					Instantiate (weaponShot, weaponSpawnerTrans.position, weaponSpawnerTrans.rotation);
+					Instantiate (weaponShot, LeftCannonTrans.position, LeftCannonTrans.rotation);
+					Instantiate (weaponShot, RightCannonTrans.position, RightCannonTrans.rotation);
+					GetComponent<AudioSource>().Play();
 					GetComponent<AudioSource>().Play();
 				}
 
@@ -38,7 +41,9 @@ public class scr_playerBehaviour : MonoBehaviour
 				{ 
 					GameObject weaponShot = WeaponTypes [1];
 					nextFire = Time.time + fireRate;
-					Instantiate (weaponShot, weaponSpawnerTrans.position, weaponSpawnerTrans.rotation);
+					Instantiate (weaponShot, LeftCannonTrans.position, LeftCannonTrans.rotation);
+					Instantiate (weaponShot, RightCannonTrans.position, RightCannonTrans.rotation);
+					GetComponent<AudioSource>().Play();
 					GetComponent<AudioSource>().Play();
 				}
 		}

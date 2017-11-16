@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\Enemy-Related\scr_EnemyWeapon.cs" />
      <Compile Include="Assets\Scripts\Enemy-Related\scr_EvadingBehaviour.cs" />
      <Compile Include="Assets\Scripts\Environment\scr_scrollingEffect.cs" />
+     <Compile Include="Assets\Scripts\General\Classes\Wave.cs" />
      <Compile Include="Assets\Scripts\General\scr_Boundary.cs" />
      <Compile Include="Assets\Scripts\General\scr_DamageSystem.cs" />
      <Compile Include="Assets\Scripts\General\scr_GameController.cs" />
@@ -64,10 +65,12 @@
      <Compile Include="Assets\Scripts\General\scr_Mover.cs" />
      <Compile Include="Assets\Scripts\General\scr_RandomTumble.cs" />
      <Compile Include="Assets\Scripts\General\scr_Rotator.cs" />
+     <Compile Include="Assets\Scripts\General\scr_WaveSystem.cs" />
+     <Compile Include="Assets\Scripts\Menu Related\Menu_NewGame.cs" />
      <Compile Include="Assets\Scripts\Player-Related\scr_HealingPickups.cs" />
      <Compile Include="Assets\Scripts\Player-Related\scr_playerBehaviour.cs" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>M:/Year 3/Semester 1/Project 300/Project-G/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/Kodi/Desktop/ProjectWork/Project-G/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -29,8 +29,8 @@ public class scr_DamageSystem : MonoBehaviour
 	//
 	void Damage(GameObject objToTakeDMG)
 	{
-		if(objToTakeDMG.GetComponentInParent<scr_HealthSystem>() != null)
-			objToTakeDMG.GetComponentInParent<scr_HealthSystem>().TakeDamage (objToTakeDMG, damageAmount);
+		if(objToTakeDMG.GetComponent<scr_HealthSystem>() != null)
+			objToTakeDMG.GetComponent<scr_HealthSystem>().TakeDamage (objToTakeDMG, damageAmount);
 		CheckIfDead (objToTakeDMG);
 	}
 
@@ -41,8 +41,8 @@ public class scr_DamageSystem : MonoBehaviour
 
 	public void CheckIfDead(GameObject objToCheck)
 	{
-		if(objToCheck.GetComponentInParent<scr_HealthSystem>() != null)
-		if (objToCheck.GetComponentInParent<scr_HealthSystem>().health <= 0) 
+		if(objToCheck.GetComponent<scr_HealthSystem>() != null)
+		if (objToCheck.GetComponent<scr_HealthSystem>().health <= 0) 
 		{
 			GetComponentInParent<scr_Dest_Collision> ().ObjectKill (objToCheck);
 		}

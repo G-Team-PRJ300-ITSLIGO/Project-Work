@@ -38,8 +38,8 @@ public class scr_HealthSystem : MonoBehaviour {
 	public void Heal(float amount){
 		this.health += amount;
 
-		if (health > 100) {
-			health = 100;
+		if (health > startHealth) {
+			health = startHealth;
 		}
 			if(healthBar != null)
 			{
