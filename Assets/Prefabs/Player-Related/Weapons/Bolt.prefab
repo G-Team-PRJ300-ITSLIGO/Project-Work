@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 54635891785624218}
   - component: {fileID: 136628591707593076}
   - component: {fileID: 114379765465036688}
-  - component: {fileID: 114592394125904296}
-  - component: {fileID: 114803138285155710}
+  - component: {fileID: 114425803018590326}
+  - component: {fileID: 114871100216718972}
   m_Layer: 0
   m_Name: Bolt
   m_TagString: PlayerWeapon
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
---- !u!114 &114592394125904296
+--- !u!114 &114425803018590326
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -149,12 +149,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1676972959346104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e5c72a8b6e82f843b83e7a63c10770e, type: 3}
+  m_Script: {fileID: 11500000, guid: 844c2fd2fae58b74eb79a755c432257d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 0}
-  playerExplosion: {fileID: 0}
---- !u!114 &114803138285155710
+  HP: 1
+  currentHP: 0
+  Damage: 25
+  ScoreValue: 0
+--- !u!114 &114871100216718972
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -162,11 +164,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1676972959346104}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7179c49ca49dc45428c95e7629383dcd, type: 3}
+  m_Script: {fileID: 11500000, guid: c4ea7ee362db8b147bfb705cb3d1622c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 1
-  scoreValue: 0
+  explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
 --- !u!136 &136628591707593076
 CapsuleCollider:
   m_ObjectHideFlags: 1

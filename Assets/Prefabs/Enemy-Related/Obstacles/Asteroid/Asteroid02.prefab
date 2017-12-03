@@ -40,9 +40,7 @@ GameObject:
   - component: {fileID: 136791390028074684}
   - component: {fileID: 114202689884820332}
   - component: {fileID: 114415203841558680}
-  - component: {fileID: 114481188452725064}
-  - component: {fileID: 114586060323482664}
-  - component: {fileID: 114882558012998016}
+  - component: {fileID: 114330555847970074}
   m_Layer: 0
   m_Name: Asteroid02
   m_TagString: Enemy
@@ -143,6 +141,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 5
+--- !u!114 &114330555847970074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1918881571141992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844c2fd2fae58b74eb79a755c432257d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 10
+  currentHP: 0
+  Damage: 30
+  ScoreValue: 50
 --- !u!114 &114415203841558680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -155,45 +168,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -5
---- !u!114 &114481188452725064
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1918881571141992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e5c72a8b6e82f843b83e7a63c10770e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
-  playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
---- !u!114 &114586060323482664
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1918881571141992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ffcbf265de6051439a1c71ec7960531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
-  healthBar: {fileID: 0}
---- !u!114 &114882558012998016
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1918881571141992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7179c49ca49dc45428c95e7629383dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 15
-  scoreValue: 10
 --- !u!136 &136791390028074684
 CapsuleCollider:
   m_ObjectHideFlags: 1

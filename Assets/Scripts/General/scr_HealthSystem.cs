@@ -11,39 +11,33 @@ public class scr_HealthSystem : MonoBehaviour {
 	private float startHealth;
 	//Image that will visually display the amount of health object has.
 	public Image healthBar;
+	private scr_playerBehaviour player;
 
 	void Start(){
-		//Sets starting Health variable to calculate later on the actual health that player has.
-		startHealth = health;
+        //Sets starting Health variable to calculate later on the actual health that player has.
+        FindPlayer();
+		startHealth = player.GetComponent<Stats>().currentHP;
 	}
 
-	public void HealthBarUpdate () {
+	public void Update () {
 		//Refreshes the health Bar
-			if(healthBar != null)
+			if(healthBar != null && player != null)
 			{
-				healthBar.fillAmount = health / startHealth;
+			if (player.GetComponent<Stats>().currentHP > startHealth) player.GetComponent<Stats>().currentHP = startHealth;
+			healthBar.fillAmount = player.GetComponent<Stats>().currentHP / startHealth;
 			}
 	}
 
-
-	public void TakeDamage(GameObject obj, float amount){
-		obj.GetComponent<scr_HealthSystem>().health -= amount;
-			if(obj.GetComponent<scr_HealthSystem>().healthBar != null)
-			{
-				obj.GetComponent<scr_HealthSystem>().healthBar.fillAmount = health / startHealth;
-			}	
-	}
-
-
-	public void Heal(float amount){
-		this.health += amount;
-
-		if (health > startHealth) {
-			health = startHealth;
-		}
-			if(healthBar != null)
-			{
-				healthBar.fillAmount = health / startHealth;
-			}	
-	}
+    void FindPlayer()
+    {
+        GameObject playerControllerObj = GameObject.FindWithTag("Player");
+        if (playerControllerObj != null)
+        {
+            player = playerControllerObj.GetComponent<scr_playerBehaviour>();
+        }
+        if (player == null)
+        {
+            Debug.Log("Cannot Find 'PlayerController' Script");
+        }
+    }
 }
