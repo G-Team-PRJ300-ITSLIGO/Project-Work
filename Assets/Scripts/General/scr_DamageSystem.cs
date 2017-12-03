@@ -30,7 +30,7 @@ public class scr_DamageSystem : MonoBehaviour
 	void Damage(GameObject objToTakeDMG)
 	{
 		if(objToTakeDMG.GetComponent<scr_HealthSystem>() != null)
-			objToTakeDMG.GetComponent<scr_HealthSystem>().TakeDamage (objToTakeDMG, damageAmount);
+//			objToTakeDMG.GetComponent<scr_HealthSystem>().TakeDamage (objToTakeDMG, damageAmount);
 		CheckIfDead (objToTakeDMG);
 	}
 

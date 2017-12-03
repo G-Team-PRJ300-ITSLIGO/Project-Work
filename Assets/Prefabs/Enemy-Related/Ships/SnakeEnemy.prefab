@@ -443,13 +443,11 @@ GameObject:
   - component: {fileID: 54804210195863468}
   - component: {fileID: 82986610660672252}
   - component: {fileID: 136748472524146160}
-  - component: {fileID: 114999312819563156}
-  - component: {fileID: 114809044927298194}
-  - component: {fileID: 114347486157160638}
   - component: {fileID: 114764787406612556}
   - component: {fileID: 114054695971868808}
   - component: {fileID: 114667093614584906}
   - component: {fileID: 82738580649780282}
+  - component: {fileID: 114801562505302802}
   m_Layer: 0
   m_Name: SnakeEnemy
   m_TagString: Enemy
@@ -1409,7 +1407,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1959333415464396}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -0.2, y: 0, z: 7.5}
+  m_LocalPosition: {x: -0.2, y: 0, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4789847400080430}
@@ -2018,19 +2016,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -5
---- !u!114 &114347486157160638
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1436611964960124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e5c72a8b6e82f843b83e7a63c10770e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 100012, guid: 384371afbb4354cc9a3fc68eab303756, type: 2}
-  playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
 --- !u!114 &114667093614584906
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2069,7 +2054,7 @@ MonoBehaviour:
   minFireRate: 0.5
   maxFireRate: 1
   delay: 0.5
---- !u!114 &114809044927298194
+--- !u!114 &114801562505302802
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -2077,25 +2062,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1436611964960124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7179c49ca49dc45428c95e7629383dcd, type: 3}
+  m_Script: {fileID: 11500000, guid: 844c2fd2fae58b74eb79a755c432257d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 100
-  scoreValue: 50
---- !u!114 &114999312819563156
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1436611964960124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ffcbf265de6051439a1c71ec7960531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 75
-  healthBar: {fileID: 114195803210524058, guid: 50f6653e313f26b4183a8e6163bc1796,
-    type: 2}
+  HP: 100
+  currentHP: 0
+  Damage: 100
+  ScoreValue: 100
 --- !u!136 &136748472524146160
 CapsuleCollider:
   m_ObjectHideFlags: 1

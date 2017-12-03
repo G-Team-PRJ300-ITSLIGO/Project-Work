@@ -9,18 +9,25 @@ public class scr_playerBehaviour : MonoBehaviour
 	public float tilt;
 	public Boundary boundingArea;
 	public Rigidbody rb;
+	public bool locked = true;
 
 	public GameObject[] WeaponTypes;
 	public Transform LeftCannonTrans;
 	public Transform RightCannonTrans;
 
 	public float fireRate;
+    public int powerUpBullets;
 	private float nextFire = 0.0f;
 
 
 	// Use this for initialization
 	void Update ()
 	{
+        foreach(GameObject bullet in WeaponTypes)
+        {
+            bullet.GetComponent<Stats>().Damage = GetComponent<Stats>().Damage;
+        }
+		if (locked) return;
 		if(WeaponTypes != null)
 		{
 			if(WeaponTypes[0] != null)
@@ -29,29 +36,35 @@ public class scr_playerBehaviour : MonoBehaviour
 				{
 					GameObject weaponShot = WeaponTypes[0];
 					nextFire = Time.time + fireRate;           
-					Instantiate (weaponShot, LeftCannonTrans.position, LeftCannonTrans.rotation);
-					Instantiate (weaponShot, RightCannonTrans.position, RightCannonTrans.rotation);
-					GetComponent<AudioSource>().Play();
+					Instantiate (weaponShot, LeftCannonTrans.position, Quaternion.Euler(0f,0f,0f));
+					Instantiate (weaponShot, RightCannonTrans.position, Quaternion.Euler(0f,0f,0f));
 					GetComponent<AudioSource>().Play();
 				}
 
 			if(WeaponTypes[1] != null)
 			if(!Input.GetButton ("Fire1"))
-				if (Input.GetButton ("Fire2") && Time.time > nextFire) 
+				if (Input.GetButton ("Fire2") && Time.time > nextFire && powerUpBullets > 0) 
 				{ 
 					GameObject weaponShot = WeaponTypes [1];
-					nextFire = Time.time + fireRate;
-					Instantiate (weaponShot, LeftCannonTrans.position, LeftCannonTrans.rotation);
-					Instantiate (weaponShot, RightCannonTrans.position, RightCannonTrans.rotation);
+					nextFire = Time.time + fireRate * 2;
+					Instantiate (weaponShot, LeftCannonTrans.position, Quaternion.Euler(0f,0f,0f));
+					Instantiate (weaponShot, RightCannonTrans.position, Quaternion.Euler(0f,0f,0f));
 					GetComponent<AudioSource>().Play();
 					GetComponent<AudioSource>().Play();
+                    powerUpBullets--;
 				}
 		}
+
+        if(Input.GetKeyDown(KeyCode.U))
+        {
+            powerUpBullets = 50;
+        }
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
+		if (locked)	return;
 		rb = GetComponent<Rigidbody> ();
 
 		float moveHorizontal = Input.GetAxis ("Horizontal");

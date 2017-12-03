@@ -11,6 +11,7 @@ public class scr_Dest_Collision : MonoBehaviour {
 
 	public GameObject explosion;
 	public GameObject playerExplosion;
+    public GameObject healthPowerup;
 	private scr_GameController gameController;
 	private scr_playerBehaviour player;
 
@@ -49,75 +50,34 @@ public class scr_Dest_Collision : MonoBehaviour {
 	//Collision Detection Script
 	void OnTriggerEnter(Collider other)
 	{
-		//Ignores the detection between boundary and enemies, pickups etc.
-		if (other.CompareTag("Boundary") || other.CompareTag("Enemy") || other.CompareTag("PickupHealth") ) 
+		if (other == null)
+			return;
+
+		switch (other.tag)
 		{
-			return;
-		}
-		//Ignores the detection between Enemy and its own bullets or weapons as well as other enemy with other enemy's weapons.
-		if(gameObject.tag == "Enemy" && other.gameObject.tag == "EnemyWeapon" || gameObject.tag == "EnemyWeapon" && other.gameObject.tag == "Enemy"){
-			return;
-		}
-		//Ignores the detection between Enemy and its own bullets or weapons as well as other enemy with other enemy's weapons.
-		if(gameObject.tag == "Player" && other.gameObject.tag == "PlayerWeapon" || gameObject.tag == "PlayerWeapon" && other.gameObject.tag == "Player"){
-			return;
-		}
-		///All Damage Related stuff is checked here.
-		//How these checks work:
-		//First of all, the check is done if there is any damage system assigned at all. If not, informs in console.
-		//Secondly, the game checks for assigned explosion sfx object, so if any explosion is required for the collision, if so, create it.
-		//Next, the determine damage method is called to compare the two objects in it, decide who is going to take damage and deal the damage as well then check if object has any health left and do appropiate destroy action or game over if it's a player object.
-		//Lastly adds score for player.
+		case "Enemy":
+			Debug.Log("This is" + gameObject.tag);
+			this.GetComponent<Stats>().currentHP -= other.GetComponent<Stats>().Damage;
+			Destroy (other.gameObject);
+			Instantiate (explosion, other.transform.position, other.transform.rotation);
+			gameController.AddScore (other.GetComponent<Stats>().ScoreValue);
+			break;
 
-		//For Destroying enemies and damaging them.
-		if (gameObject.GetComponent<scr_DamageSystem> () != null) 
+		case "EnemyWeapon":
+			this.GetComponent<Stats>().currentHP -= other.GetComponent<Stats>().Damage;
+			Destroy(other.gameObject);
+			Instantiate (explosion, other.transform.position, other.transform.rotation);
+			break;
+		case "PickupHealth":
+			if (this.GetComponent<Stats> ().currentHP < this.GetComponent<Stats> ().HP)
 			{
-				//Create exploision if assigned and needed.
-				if (gameObject.GetComponent<scr_Dest_Collision> ().explosion != null) 
-				{
-					Instantiate (gameObject.GetComponent<scr_Dest_Collision> ().explosion, gameObject.transform.position, gameObject.transform.rotation);
-				}
-				gameObject.GetComponent<scr_DamageSystem> ().DetermineDamage (other.gameObject, gameObject);
+				this.GetComponent<Stats> ().currentHP += other.gameObject.GetComponentInParent<scr_HealingPickups> ().HealAmount;
+                
+                }
+                Instantiate(healthPowerup, transform.position, transform.rotation);
+                Destroy(other.gameObject);
+			break; 
 
-			}
-//		if(gameObject.tag == "Enemy" && other.tag == "PlayerWeapon")
-//		{
-//			//Create exploision if assigned and needed.
-//			if (gameObject.GetComponent<scr_Dest_Collision> ().explosion != null) 
-//			{
-//				Instantiate (gameObject.GetComponent<scr_Dest_Collision> ().explosion, gameObject.transform.position, gameObject.transform.rotation);
-//			}
-//			gameObject.GetComponentInParent<scr_DamageSystem> ().DetermineDamage (gameObject, other.gameObject);
-//
-//		}
-
-
-		//Pickup System for restoring health.
-		if (gameObject.tag == "PickupHealth" || other.tag == "PickupHealth") 
-		{
-			if (other.tag == "Player" || gameObject.tag == "Player") 
-			{
-				gameObject.GetComponentInParent<scr_HealingPickups>().RestoreHealth (other.gameObject);
-				Destroy (gameObject);
-			}       
-			if (other.tag == "PlayerWeapon" || other.tag == "EnemyWeapon")
-			{
-				return;
-			}
-		}
-
-//		//Next two Ifs check if either object is player weapon or enemy's weapon and just destroy each other without any special FX.
-//		if(other.tag == "PlayerWeapon" || other.tag == "EnemyWeapon")
-//		{
-//			Destroy (other.gameObject);
-//		}
-//		if(gameObject.tag == "PlayerWeapon" || gameObject.tag == "EnemyWeapon"){
-//			Destroy (gameObject);
-//		}
-
-		if(other.tag == "Player" && gameObject.tag == "Enemy"){
-			Destroy (gameObject);
-			gameObject.GetComponentInParent<scr_DamageSystem> ().addScore (gameObject.GetComponentInParent<scr_DamageSystem> ().scoreValue);
 		}
 	}
 

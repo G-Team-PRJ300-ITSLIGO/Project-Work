@@ -39,8 +39,7 @@ GameObject:
   - component: {fileID: 54901558674924986}
   - component: {fileID: 136290906189776158}
   - component: {fileID: 114864674936748868}
-  - component: {fileID: 114522337695176444}
-  - component: {fileID: 114747567699859610}
+  - component: {fileID: 114896506142976586}
   m_Layer: 0
   m_Name: BoltEnemy
   m_TagString: EnemyWeapon
@@ -129,32 +128,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114522337695176444
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1230843997124300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e5c72a8b6e82f843b83e7a63c10770e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 0}
-  playerExplosion: {fileID: 0}
---- !u!114 &114747567699859610
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1230843997124300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7179c49ca49dc45428c95e7629383dcd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 10
-  scoreValue: 0
 --- !u!114 &114864674936748868
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -167,6 +140,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 15
+--- !u!114 &114896506142976586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1230843997124300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844c2fd2fae58b74eb79a755c432257d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 1
+  currentHP: 0
+  Damage: 50
+  ScoreValue: 0
 --- !u!136 &136290906189776158
 CapsuleCollider:
   m_ObjectHideFlags: 1
