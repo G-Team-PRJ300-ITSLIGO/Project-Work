@@ -1,5 +1,4 @@
-# ProjectG100-GamesFleadh2018
-Entry for Games Fleadh 2018.
+# ProjectG100
 Backup Repository Folder (Google Drive as github was acting very weirdly during push and took ages to push, there is timestamp on files though).
 https://drive.google.com/drive/folders/1kkLXK3QzWN030tFfuYWUzauNeMp7rqe9
 Also for the build of the game, turn on V-Sync option as the game can run too fast.
