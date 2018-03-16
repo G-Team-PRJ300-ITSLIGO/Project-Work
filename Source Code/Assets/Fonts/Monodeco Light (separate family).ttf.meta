@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4f832e51db8b2c24597b7815d844f6a5
+timeCreated: 1514756984
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MonodecoLight
+  fontNames:
+  - MonodecoLight
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

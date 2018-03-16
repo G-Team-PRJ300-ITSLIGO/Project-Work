@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 7e5c72a8b6e82f843b83e7a63c10770e
+timeCreated: 1513274569
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - explosion: {fileID: 100004, guid: 2857e183f4cd3df4e9096e5b578bd32f, type: 2}
+  - playerExplosion: {fileID: 100008, guid: a93496017806b7740910df5fd946f306, type: 2}
+  - healthPowerup: {fileID: 1753623018631074, guid: bb65b1bb6a161cc4aa90372c38b95977,
+      type: 2}
+  - redPowerup: {fileID: 1738672857321152, guid: 06941b7f01671a84b99653a7dd3d7705,
+      type: 2}
+  - bluePowerup: {fileID: 1043794800724544, guid: 2b966c1f44e6c3141875de924ff48059,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

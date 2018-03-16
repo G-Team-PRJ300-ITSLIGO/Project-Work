@@ -1,0 +1,4307 @@
+fileFormatVersion: 2
+guid: c09b6e31482e4e045a4be19175dc4543
+timeCreated: 1519081926
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: idle2_0
+    21300002: idle2_1
+    21300004: idle2_2
+    21300006: idle2_3
+    21300008: idle2_4
+    21300010: idle2_5
+    21300012: idle2_6
+    21300014: idle2_7
+    21300016: idle2_8
+    21300018: idle2_9
+    21300020: idle2_10
+    21300022: idle2_11
+    21300024: idle2_12
+    21300026: idle2_13
+    21300028: idle2_14
+    21300030: idle2_15
+    21300032: idle2_16
+    21300034: idle2_17
+    21300036: idle2_18
+    21300038: idle2_19
+    21300040: idle2_20
+    21300042: idle2_21
+    21300044: idle2_22
+    21300046: idle2_23
+    21300048: idle2_24
+    21300050: idle2_25
+    21300052: idle2_26
+    21300054: idle2_27
+    21300056: idle2_28
+    21300058: idle2_29
+    21300060: idle2_30
+    21300062: idle2_31
+    21300064: idle2_32
+    21300066: idle2_33
+    21300068: idle2_34
+    21300070: idle2_35
+    21300072: idle2_36
+    21300074: idle2_37
+    21300076: idle2_38
+    21300078: idle2_39
+    21300080: idle2_40
+    21300082: idle2_41
+    21300084: idle2_42
+    21300086: idle2_43
+    21300088: idle2_44
+    21300090: idle2_45
+    21300092: idle2_46
+    21300094: idle2_47
+    21300096: idle2_48
+    21300098: idle2_49
+    21300100: idle2_50
+    21300102: idle2_51
+    21300104: idle2_52
+    21300106: idle2_53
+    21300108: idle2_54
+    21300110: idle2_55
+    21300112: idle2_56
+    21300114: idle2_57
+    21300116: idle2_58
+    21300118: idle2_59
+    21300120: idle2_60
+    21300122: idle2_61
+    21300124: idle2_62
+    21300126: idle2_63
+    21300128: idle2_64
+    21300130: idle2_65
+    21300132: idle2_66
+    21300134: idle2_67
+    21300136: idle2_68
+    21300138: idle2_69
+    21300140: idle2_70
+    21300142: idle2_71
+    21300144: idle2_72
+    21300146: idle2_73
+    21300148: idle2_74
+    21300150: idle2_75
+    21300152: idle2_76
+    21300154: idle2_77
+    21300156: idle2_78
+    21300158: idle2_79
+    21300160: idle2_80
+    21300162: idle2_81
+    21300164: idle2_82
+    21300166: idle2_83
+    21300168: idle2_84
+    21300170: idle2_85
+    21300172: idle2_86
+    21300174: idle2_87
+    21300176: idle2_88
+    21300178: idle2_89
+    21300180: idle2_90
+    21300182: idle2_91
+    21300184: idle2_92
+    21300186: idle2_93
+    21300188: idle2_94
+    21300190: idle2_95
+    21300192: idle2_96
+    21300194: idle2_97
+    21300196: idle2_98
+    21300198: idle2_99
+    21300200: idle2_100
+    21300202: idle2_101
+    21300204: idle2_102
+    21300206: idle2_103
+    21300208: idle2_104
+    21300210: idle2_105
+    21300212: idle2_106
+    21300214: idle2_107
+    21300216: idle2_108
+    21300218: idle2_109
+    21300220: idle2_110
+    21300222: idle2_111
+    21300224: idle2_112
+    21300226: idle2_113
+    21300228: idle2_114
+    21300230: idle2_115
+    21300232: idle2_116
+    21300234: idle2_117
+    21300236: idle2_118
+    21300238: idle2_119
+    21300240: idle2_120
+    21300242: idle2_121
+    21300244: idle2_122
+    21300246: idle2_123
+    21300248: idle2_124
+    21300250: idle2_125
+    21300252: idle2_126
+    21300254: idle2_127
+    21300256: idle2_128
+    21300258: idle2_129
+    21300260: idle2_130
+    21300262: idle2_131
+    21300264: idle2_132
+    21300266: idle2_133
+    21300268: idle2_134
+    21300270: idle2_135
+    21300272: idle2_136
+    21300274: idle2_137
+    21300276: idle2_138
+    21300278: idle2_139
+    21300280: idle2_140
+    21300282: idle2_141
+    21300284: idle2_142
+    21300286: idle2_143
+    21300288: idle2_144
+    21300290: idle2_145
+    21300292: idle2_146
+    21300294: idle2_147
+    21300296: idle2_148
+    21300298: idle2_149
+    21300300: idle2_150
+    21300302: idle2_151
+    21300304: idle2_152
+    21300306: idle2_153
+    21300308: idle2_154
+    21300310: idle2_155
+    21300312: idle2_156
+    21300314: idle2_157
+    21300316: idle2_158
+    21300318: idle2_159
+    21300320: idle2_160
+    21300322: idle2_161
+    21300324: idle2_162
+    21300326: idle2_163
+    21300328: idle2_164
+    21300330: idle2_165
+    21300332: idle2_166
+    21300334: idle2_167
+    21300336: idle2_168
+    21300338: idle2_169
+    21300340: idle2_170
+    21300342: idle2_171
+    21300344: idle2_172
+    21300346: idle2_173
+    21300348: idle2_174
+    21300350: idle2_175
+    21300352: idle2_176
+    21300354: idle2_177
+    21300356: idle2_178
+    21300358: idle2_179
+    21300360: idle2_180
+    21300362: idle2_181
+    21300364: idle2_182
+    21300366: idle2_183
+    21300368: idle2_184
+    21300370: idle2_185
+    21300372: idle2_186
+    21300374: idle2_187
+    21300376: idle2_188
+    21300378: idle2_189
+    21300380: idle2_190
+    21300382: idle2_191
+    21300384: idle2_192
+    21300386: idle2_193
+    21300388: idle2_194
+    21300390: idle2_195
+    21300392: idle2_196
+    21300394: idle2_197
+    21300396: idle2_198
+    21300398: idle2_199
+    21300400: idle2_200
+    21300402: idle2_201
+    21300404: idle2_202
+    21300406: idle2_203
+    21300408: idle2_204
+    21300410: idle2_205
+    21300412: idle2_206
+    21300414: idle2_207
+    21300416: idle2_208
+    21300418: idle2_209
+    21300420: idle2_210
+    21300422: idle2_211
+    21300424: idle2_212
+    21300426: idle2_213
+    21300428: idle2_214
+    21300430: idle2_215
+    21300432: idle2_216
+    21300434: idle2_217
+    21300436: idle2_218
+    21300438: idle2_219
+    21300440: idle2_220
+    21300442: idle2_221
+    21300444: idle2_222
+    21300446: idle2_223
+    21300448: idle2_224
+    21300450: idle2_225
+    21300452: idle2_226
+    21300454: idle2_227
+    21300456: idle2_228
+    21300458: idle2_229
+    21300460: idle2_230
+    21300462: idle2_231
+    21300464: idle2_232
+    21300466: idle2_233
+    21300468: idle2_234
+    21300470: idle2_235
+    21300472: idle2_236
+    21300474: idle2_237
+    21300476: idle2_238
+    21300478: idle2_239
+    21300480: idle2_240
+    21300482: idle2_241
+    21300484: idle2_242
+    21300486: idle2_243
+    21300488: idle2_244
+    21300490: idle2_245
+    21300492: idle2_246
+    21300494: idle2_247
+    21300496: idle2_248
+    21300498: idle2_249
+    21300500: idle2_250
+    21300502: idle2_251
+    21300504: idle2_252
+    21300506: idle2_253
+    21300508: idle2_254
+    21300510: idle2_255
+    21300512: idle2_256
+    21300514: idle2_257
+    21300516: idle2_258
+    21300518: idle2_259
+    21300520: idle2_260
+    21300522: idle2_261
+    21300524: idle2_262
+    21300526: idle2_263
+    21300528: idle2_264
+    21300530: idle2_265
+    21300532: idle2_266
+    21300534: idle2_267
+    21300536: idle2_268
+    21300538: idle2_269
+    21300540: idle2_270
+    21300542: idle2_271
+    21300544: idle2_272
+    21300546: idle2_273
+    21300548: idle2_274
+    21300550: idle2_275
+    21300552: idle2_276
+    21300554: idle2_277
+    21300556: idle2_278
+    21300558: idle2_279
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_2
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_3
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_4
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_5
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_6
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_7
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_8
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_9
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 9720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_12
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_13
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_14
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_15
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_16
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_17
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_18
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_19
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 9360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_21
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_22
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_23
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_24
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_25
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_26
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_27
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_28
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_29
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 9000
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_31
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_32
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_33
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_34
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_35
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_36
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_37
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_38
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_39
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 8640
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_41
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_42
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_43
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_44
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_45
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_46
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_47
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_48
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_49
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 8280
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_51
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_52
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_53
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_54
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_55
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_56
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_57
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_58
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_59
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 7920
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_61
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_62
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_63
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_64
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_65
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_66
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_67
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_68
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_69
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 7560
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_71
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_72
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_73
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_74
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_75
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_76
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_77
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_78
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_79
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 7200
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_81
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_82
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_83
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_84
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_85
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_86
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_87
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_88
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_89
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 6840
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_91
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_92
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_93
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_94
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_95
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_96
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_97
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_98
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_99
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 6480
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_101
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_102
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_103
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_104
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_105
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_106
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_107
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_108
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_109
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 6120
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_111
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_112
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_113
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_114
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_115
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_116
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_117
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_118
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_119
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 5760
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_121
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_122
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_123
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_124
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_125
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_126
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_127
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_128
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_129
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 5400
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_131
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_132
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_133
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_134
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_135
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_136
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_137
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_138
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_139
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 5040
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_141
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_142
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_143
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_144
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_145
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_146
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_147
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_148
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_149
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 4680
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_151
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_152
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_153
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_154
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_155
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_156
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_157
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_158
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_159
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 4320
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_161
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_162
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_163
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_164
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_165
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_166
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_167
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_168
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_169
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 3960
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_171
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_172
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_173
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_174
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_175
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_176
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_177
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_178
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_179
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_181
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_182
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_183
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_184
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_185
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_186
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_187
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_188
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_189
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_191
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_192
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_193
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_194
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_195
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_196
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_197
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_198
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_199
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_201
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_202
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_203
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_204
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_205
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_206
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_207
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_208
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_209
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_211
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_212
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_213
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_214
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_215
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_216
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_217
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_218
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_219
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_221
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_222
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_223
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_224
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_225
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_226
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_227
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_228
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_229
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_230
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_231
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_232
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_233
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_234
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_235
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_236
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_237
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_238
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_239
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_241
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_242
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_243
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_244
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_245
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_246
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_247
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_248
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_249
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_250
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_251
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_252
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_253
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_254
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_255
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_256
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_257
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_258
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_259
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_260
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_261
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_262
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_263
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_264
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_265
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_266
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_267
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_268
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_269
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_271
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_272
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_273
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_274
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_275
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_276
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_277
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_278
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: idle2_279
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

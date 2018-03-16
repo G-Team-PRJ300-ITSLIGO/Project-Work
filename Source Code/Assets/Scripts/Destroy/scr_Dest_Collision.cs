@@ -1,0 +1,123 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+
+
+public class scr_Dest_Collision : MonoBehaviour {
+	/// <summary>
+	/// This script handles the collisions with different objects and depending on their 
+	/// type/tag calls on different actions from different components.
+	/// For example, if an object is a health pickup, it will destroy it and let a a different component handle the healing, in that case, Health Pickup Component.
+	/// </summary>
+
+	public GameObject explosion;
+	public UnityEvent powerup;
+	public Action<int,scr_playerBehaviour> powerupAction;
+	public GameObject playerExplosion;
+    public GameObject healthPowerup;
+    public GameObject redPowerup;
+    public GameObject bluePowerup;
+    private scr_GameController gameController;
+	private scr_playerBehaviour player;
+
+
+	// Use this for initialization
+	void Start () {
+		FindGC ();
+        player = this.GetComponentInParent<scr_playerBehaviour>();
+    }
+
+	//Decides how to dispose of an object depending on if it's a player or anything else.
+	public void ObjectKill(GameObject obj)
+	{
+		if(obj.tag == "Player")
+		{
+			Instantiate (obj.GetComponent<scr_Dest_Collision> ().playerExplosion, obj.transform.position, obj.transform.rotation);
+			gameController.GameOver ();
+			Destroy (obj.gameObject);
+			Destroy (gameObject);
+		}
+		else
+		{
+			Instantiate (obj.GetComponent<scr_Dest_Collision> ().explosion, obj.transform.position, obj.transform.rotation);
+			obj.GetComponentInParent<scr_DamageSystem> ().addScore (obj.GetComponentInParent<scr_DamageSystem> ().scoreValue);
+
+			if(obj.GetComponentInParent<scr_HealthSystem>().health <= 0){
+				//Debug.Log (string.Format ("{0} health: {1}", obj.name, obj.GetComponentInParent<scr_HealthSystem> ().health));
+				Destroy (obj.gameObject);
+			}
+			else{
+				return;
+			}
+		}
+
+	}
+
+	//Collision Detection Script
+	void OnTriggerEnter(Collider other)
+	{
+		if (other == null)
+			return;
+
+		switch (other.tag)
+		{
+        case "EnemyShieldGenerator":
+        case "EnemyShield":
+		case "Enemy":
+			Debug.Log("This is" + gameObject.tag);
+			player.stats.currentHP -= other.GetComponent<scr_enemyStats>().stats.Damage;
+                gameController.enemiesKilled++;
+                Destroy (other.gameObject);
+			Instantiate (explosion, other.transform.position, other.transform.rotation);
+			gameController.AddScore (other.GetComponent<scr_enemyStats>().stats.ScoreValue);
+                gameController.HUDcharacter.Play("damage");
+			break;
+
+		case "FoeWeapon":
+			player.stats.currentHP -= other.GetComponent<scr_enemyStats>().stats.Damage;
+			Destroy(other.gameObject);
+			Instantiate (explosion, other.transform.position, other.transform.rotation);
+                gameController.HUDcharacter.Play("damage");
+                break;
+		case "PickupGreen":
+			gameController.powerupAction ("Green",player);
+                Instantiate(healthPowerup, transform.position, transform.rotation);
+                Destroy(other.gameObject);
+			break;
+            case "PickupRed":
+			gameController.powerupAction ("Red",player);
+                Instantiate(redPowerup, transform.position, transform.rotation);
+                Destroy(other.gameObject);
+                break;
+		case "PickupBlue":
+			gameController.powerupAction ("Blue",player);
+                Instantiate(bluePowerup, transform.position, transform.rotation);
+                Destroy(other.gameObject);
+                break;
+        }
+        if(player.stats.currentHP < 0)
+        {
+            gameController.powerupAction("Death", player);
+        }
+	}
+    void Update()
+    {
+     
+    }
+
+
+	void FindGC()
+	{
+		GameObject gameControllerObject = GameObject.FindWithTag ("GameController");
+		if (gameControllerObject != null) 
+		{
+			gameController = gameControllerObject.GetComponent<scr_GameController> ();
+		}
+		if (gameController == null)
+		{
+			Debug.Log ("Cannot Find 'GameController' Script");
+		}
+	}
+}

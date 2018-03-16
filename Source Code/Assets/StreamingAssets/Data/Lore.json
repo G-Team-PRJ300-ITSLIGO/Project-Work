@@ -1,0 +1,40 @@
+{
+    "Lores": [
+        {
+            "shipName": "AnacondaShip",
+            "loreDesc": "Anaconda Tier 1 is the basic tier of the Anaconda Squadron ships. It's jet like shape allows it to manouver easily as well as is very fast and nimble."
+        },
+        {
+            "shipName": "AnacondaShip2",
+            "loreDesc": "Anaconda Tier 2 is bit more advanced of the Anaconda Squadron ships. Bit wider however much thinner in shape, makes it the perfect ship for quick dodging."
+        },
+        {
+            "shipName": "AnacondaShip3",
+            "loreDesc": "Anaconda Tier 3 is the last ship in Anaconda Squadron. Very nimble and fast makes it a very dangerous and useful ship to fight the empire."
+        },
+        {
+            "shipName": "CebulaShip",
+            "loreDesc": "The Legendary Tier 1 Cebula Knights ship is a capable killing machine against the Evil Empire. Its sword like appearance allows it to avoid any oncoming danger."
+        },
+        {
+            "shipName": "CebulaShip2",
+            "loreDesc": "The Legendary Tier 2 Cebula Knights ship is much faster and powerful than its previous tier brother. With its high speed and thin shape, no Evil Empire could stand up to it."
+        },
+        {
+            "shipName": "CebulaShip3",
+            "loreDesc": "The Legendary Tier 3 Cebula Knights ship being last in this Legendary order of ships, is the most capable and powerful weapon to fight the evil empire."
+        },
+        {
+            "shipName": "ScarabShip",
+            "loreDesc": "Scarab Tier 1 is a very beefy looking ship capable of taking a fair lot of damage. Path of Scarab were famous for their amazing defense technology."
+        },
+        {
+            "shipName": "ScarabShip2",
+            "loreDesc": "Scarab Tier 2 is even more beefy and well built than its predecessor. It is said that Path of Scarab kept the technology behind this ship's defense systems top secret."
+        },
+        {
+            "shipName": "ScarabShip3",
+            "loreDesc": "Scarab Tier 3 is the final stand against the Evil Empire by Path of Scarab. It was made from the hardest materials known to this faction and its defense is almost undefeatable."
+        }
+    ]
+}

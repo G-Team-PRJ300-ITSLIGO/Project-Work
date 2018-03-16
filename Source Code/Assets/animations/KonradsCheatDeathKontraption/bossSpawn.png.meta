@@ -1,0 +1,1757 @@
+fileFormatVersion: 2
+guid: 17fa534de65e0504192aaf9baf08e62d
+timeCreated: 1519106752
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bossSpawn_0
+    21300002: bossSpawn_1
+    21300004: bossSpawn_2
+    21300006: bossSpawn_3
+    21300008: bossSpawn_4
+    21300010: bossSpawn_5
+    21300012: bossSpawn_6
+    21300014: bossSpawn_7
+    21300016: bossSpawn_8
+    21300018: bossSpawn_9
+    21300020: bossSpawn_10
+    21300022: bossSpawn_11
+    21300024: bossSpawn_12
+    21300026: bossSpawn_13
+    21300028: bossSpawn_14
+    21300030: bossSpawn_15
+    21300032: bossSpawn_16
+    21300034: bossSpawn_17
+    21300036: bossSpawn_18
+    21300038: bossSpawn_19
+    21300040: bossSpawn_20
+    21300042: bossSpawn_21
+    21300044: bossSpawn_22
+    21300046: bossSpawn_23
+    21300048: bossSpawn_24
+    21300050: bossSpawn_25
+    21300052: bossSpawn_26
+    21300054: bossSpawn_27
+    21300056: bossSpawn_28
+    21300058: bossSpawn_29
+    21300060: bossSpawn_30
+    21300062: bossSpawn_31
+    21300064: bossSpawn_32
+    21300066: bossSpawn_33
+    21300068: bossSpawn_34
+    21300070: bossSpawn_35
+    21300072: bossSpawn_36
+    21300074: bossSpawn_37
+    21300076: bossSpawn_38
+    21300078: bossSpawn_39
+    21300080: bossSpawn_40
+    21300082: bossSpawn_41
+    21300084: bossSpawn_42
+    21300086: bossSpawn_43
+    21300088: bossSpawn_44
+    21300090: bossSpawn_45
+    21300092: bossSpawn_46
+    21300094: bossSpawn_47
+    21300096: bossSpawn_48
+    21300098: bossSpawn_49
+    21300100: bossSpawn_50
+    21300102: bossSpawn_51
+    21300104: bossSpawn_52
+    21300106: bossSpawn_53
+    21300108: bossSpawn_54
+    21300110: bossSpawn_55
+    21300112: bossSpawn_56
+    21300114: bossSpawn_57
+    21300116: bossSpawn_58
+    21300118: bossSpawn_59
+    21300120: bossSpawn_60
+    21300122: bossSpawn_61
+    21300124: bossSpawn_62
+    21300126: bossSpawn_63
+    21300128: bossSpawn_64
+    21300130: bossSpawn_65
+    21300132: bossSpawn_66
+    21300134: bossSpawn_67
+    21300136: bossSpawn_68
+    21300138: bossSpawn_69
+    21300140: bossSpawn_70
+    21300142: bossSpawn_71
+    21300144: bossSpawn_72
+    21300146: bossSpawn_73
+    21300148: bossSpawn_74
+    21300150: bossSpawn_75
+    21300152: bossSpawn_76
+    21300154: bossSpawn_77
+    21300156: bossSpawn_78
+    21300158: bossSpawn_79
+    21300160: bossSpawn_80
+    21300162: bossSpawn_81
+    21300164: bossSpawn_82
+    21300166: bossSpawn_83
+    21300168: bossSpawn_84
+    21300170: bossSpawn_85
+    21300172: bossSpawn_86
+    21300174: bossSpawn_87
+    21300176: bossSpawn_88
+    21300178: bossSpawn_89
+    21300180: bossSpawn_90
+    21300182: bossSpawn_91
+    21300184: bossSpawn_92
+    21300186: bossSpawn_93
+    21300188: bossSpawn_94
+    21300190: bossSpawn_95
+    21300192: bossSpawn_96
+    21300194: bossSpawn_97
+    21300196: bossSpawn_98
+    21300198: bossSpawn_99
+    21300200: bossSpawn_100
+    21300202: bossSpawn_101
+    21300204: bossSpawn_102
+    21300206: bossSpawn_103
+    21300208: bossSpawn_104
+    21300210: bossSpawn_105
+    21300212: bossSpawn_106
+    21300214: bossSpawn_107
+    21300216: bossSpawn_108
+    21300218: bossSpawn_109
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossSpawn_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_2
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_3
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_4
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_5
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_6
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_7
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_8
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_9
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 3600
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_12
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_13
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_14
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_15
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_16
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_17
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_18
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_19
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_21
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_22
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_23
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_24
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_25
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_26
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_27
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_28
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_29
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_31
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_32
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_33
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_34
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_35
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_36
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_37
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_38
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_39
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_41
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_42
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_43
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_44
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_45
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_46
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_47
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_48
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_49
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_51
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_52
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_53
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_54
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_55
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_56
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_57
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_58
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_59
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_61
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_62
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_63
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_64
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_65
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_66
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_67
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_68
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_69
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_71
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_72
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_73
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_74
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_75
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_76
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_77
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_78
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_79
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_81
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_82
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_83
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_84
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_85
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_86
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_87
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_88
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_89
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_91
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_92
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_93
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_94
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_95
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_96
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_97
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_98
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_99
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_101
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_102
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_103
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_104
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_105
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_106
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_107
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_108
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossSpawn_109
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

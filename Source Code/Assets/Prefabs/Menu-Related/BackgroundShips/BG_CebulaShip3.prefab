@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1553242176557528}
+  m_IsPrefabParent: 1
+--- !u!1 &1553242176557528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4568198909513970}
+  - component: {fileID: 54583842920985972}
+  - component: {fileID: 64879505619340362}
+  - component: {fileID: 114923794155692426}
+  - component: {fileID: 114149327043383610}
+  m_Layer: 0
+  m_Name: BG_CebulaShip3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1627376176341190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4958913023670636}
+  - component: {fileID: 33834439190072144}
+  - component: {fileID: 23357090758299382}
+  m_Layer: 0
+  m_Name: CebulaShip3Model
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4568198909513970
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553242176557528}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_Children:
+  - {fileID: 4958913023670636}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!4 &4958913023670636
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627376176341190}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 4568198909513970}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+--- !u!23 &23357090758299382
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627376176341190}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ab762125bcd85274d87a5832b75212e7, type: 2}
+  - {fileID: 2100000, guid: 840317e5e11ec3b42bcd03e45d0ce090, type: 2}
+  - {fileID: 2100000, guid: 23bd9de4fe449b34aacc8974b3e32d52, type: 2}
+  - {fileID: 2100000, guid: 797391aa6dd824a418fb26e271c2a11f, type: 2}
+  - {fileID: 2100000, guid: f4aa8e036c0787540acb939b52c60844, type: 2}
+  - {fileID: 2100000, guid: 9901cd85dc2ab594a8c6f27a78804617, type: 2}
+  - {fileID: 2100000, guid: 8a139cf3c716c4b4092b9a5d246c5c6b, type: 2}
+  - {fileID: 2100000, guid: 991251a0d141fbe42bcc3042d00cf64c, type: 2}
+  - {fileID: 2100000, guid: 46ea17ecd1c17f04286b595966e31d75, type: 2}
+  - {fileID: 2100000, guid: d77bfcddea87a2c44857bbe2c9abbd1d, type: 2}
+  - {fileID: 2100000, guid: 5c8f848c68abc044bac97785101c03de, type: 2}
+  - {fileID: 2100000, guid: ee179ab9237a4864d93f76f066ed7579, type: 2}
+  - {fileID: 2100000, guid: d96099f26fa4a8548bf9d5f582f6cc3e, type: 2}
+  - {fileID: 2100000, guid: c1cda514e1defca489c14301a96cd230, type: 2}
+  - {fileID: 2100000, guid: 27e9e9c68905c3b42b04cd873e79bcff, type: 2}
+  - {fileID: 2100000, guid: 7b633f6cbf191dc48ba0efcfd3418cb1, type: 2}
+  - {fileID: 2100000, guid: b42e0829bfff1474e8d4cbbf0729cb3b, type: 2}
+  - {fileID: 2100000, guid: 0bb764b5d36f7614b8e4c6c52c50d751, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33834439190072144
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627376176341190}
+  m_Mesh: {fileID: 4300000, guid: 831c9e95cf5fbcf4fbf7b68761029588, type: 3}
+--- !u!54 &54583842920985972
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553242176557528}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &64879505619340362
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553242176557528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 831c9e95cf5fbcf4fbf7b68761029588, type: 3}
+--- !u!114 &114149327043383610
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553242176557528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf482d8e81552b844ad40933c18be5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114923794155692426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553242176557528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d4feec0e256734e8739d0804d5a4e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedMin: 450
+  speedMax: 600

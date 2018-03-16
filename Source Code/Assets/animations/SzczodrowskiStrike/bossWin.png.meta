@@ -1,0 +1,1607 @@
+fileFormatVersion: 2
+guid: 14f14a851e6446045b79f07e46d99a0d
+timeCreated: 1519107286
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bossWin_0
+    21300002: bossWin_1
+    21300004: bossWin_2
+    21300006: bossWin_3
+    21300008: bossWin_4
+    21300010: bossWin_5
+    21300012: bossWin_6
+    21300014: bossWin_7
+    21300016: bossWin_8
+    21300018: bossWin_9
+    21300020: bossWin_10
+    21300022: bossWin_11
+    21300024: bossWin_12
+    21300026: bossWin_13
+    21300028: bossWin_14
+    21300030: bossWin_15
+    21300032: bossWin_16
+    21300034: bossWin_17
+    21300036: bossWin_18
+    21300038: bossWin_19
+    21300040: bossWin_20
+    21300042: bossWin_21
+    21300044: bossWin_22
+    21300046: bossWin_23
+    21300048: bossWin_24
+    21300050: bossWin_25
+    21300052: bossWin_26
+    21300054: bossWin_27
+    21300056: bossWin_28
+    21300058: bossWin_29
+    21300060: bossWin_30
+    21300062: bossWin_31
+    21300064: bossWin_32
+    21300066: bossWin_33
+    21300068: bossWin_34
+    21300070: bossWin_35
+    21300072: bossWin_36
+    21300074: bossWin_37
+    21300076: bossWin_38
+    21300078: bossWin_39
+    21300080: bossWin_40
+    21300082: bossWin_41
+    21300084: bossWin_42
+    21300086: bossWin_43
+    21300088: bossWin_44
+    21300090: bossWin_45
+    21300092: bossWin_46
+    21300094: bossWin_47
+    21300096: bossWin_48
+    21300098: bossWin_49
+    21300100: bossWin_50
+    21300102: bossWin_51
+    21300104: bossWin_52
+    21300106: bossWin_53
+    21300108: bossWin_54
+    21300110: bossWin_55
+    21300112: bossWin_56
+    21300114: bossWin_57
+    21300116: bossWin_58
+    21300118: bossWin_59
+    21300120: bossWin_60
+    21300122: bossWin_61
+    21300124: bossWin_62
+    21300126: bossWin_63
+    21300128: bossWin_64
+    21300130: bossWin_65
+    21300132: bossWin_66
+    21300134: bossWin_67
+    21300136: bossWin_68
+    21300138: bossWin_69
+    21300140: bossWin_70
+    21300142: bossWin_71
+    21300144: bossWin_72
+    21300146: bossWin_73
+    21300148: bossWin_74
+    21300150: bossWin_75
+    21300152: bossWin_76
+    21300154: bossWin_77
+    21300156: bossWin_78
+    21300158: bossWin_79
+    21300160: bossWin_80
+    21300162: bossWin_81
+    21300164: bossWin_82
+    21300166: bossWin_83
+    21300168: bossWin_84
+    21300170: bossWin_85
+    21300172: bossWin_86
+    21300174: bossWin_87
+    21300176: bossWin_88
+    21300178: bossWin_89
+    21300180: bossWin_90
+    21300182: bossWin_91
+    21300184: bossWin_92
+    21300186: bossWin_93
+    21300188: bossWin_94
+    21300190: bossWin_95
+    21300192: bossWin_96
+    21300194: bossWin_97
+    21300196: bossWin_98
+    21300198: bossWin_99
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossWin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_1
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_2
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_3
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_4
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_5
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_6
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_7
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_8
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_9
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 3240
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_11
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_12
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_13
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_14
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_15
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_16
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_17
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_18
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_19
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2880
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_21
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_22
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_23
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_24
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_25
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_26
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_27
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_28
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_29
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2520
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_31
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_32
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_33
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_34
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_35
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_36
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_37
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_38
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_39
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 2160
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_41
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_42
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_43
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_44
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_45
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_46
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_47
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_48
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_49
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1800
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_51
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_52
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_53
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_54
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_55
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_56
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_57
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_58
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_59
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1440
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_61
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_62
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_63
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_64
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_65
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_66
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_67
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_68
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_69
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 1080
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_71
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_72
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_73
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_74
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_75
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_76
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_77
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_78
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_79
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 720
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_81
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_82
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_83
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_84
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_85
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_86
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_87
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_88
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_89
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 360
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_91
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_92
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_93
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_94
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_95
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_96
+      rect:
+        serializedVersion: 2
+        x: 3828
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_97
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_98
+      rect:
+        serializedVersion: 2
+        x: 5104
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bossWin_99
+      rect:
+        serializedVersion: 2
+        x: 5742
+        y: 0
+        width: 638
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

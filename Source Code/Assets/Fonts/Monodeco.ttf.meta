@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a40215ec6a4058f4d8a7263ccd06745d
+timeCreated: 1514756984
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Monodeco
+  fontNames:
+  - Monodeco
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a1b20ae8380ee8d45891c81c9e565eb0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

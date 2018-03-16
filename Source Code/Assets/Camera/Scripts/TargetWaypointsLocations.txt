@@ -1,0 +1,9 @@
+Target Camera Points starting from ELEMENT 0
+
+60
+30
+30
+45
+45
+30
+30

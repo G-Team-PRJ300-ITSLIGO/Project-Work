@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Boundary
+  - Enemy
+  - PlayerWeapon
+  - GameInstancer
+  - Boss
+  - PickupGreen
+  - PickupRed
+  - PickupBlue
+  - RotateMinusY90
+  - NoRotate
+  - RotateMinusX45
+  - RotateMinusY45
+  - EnemyShield
+  - Shield
+  - RotateX45
+  - FoeWeapon
+  - EnemyShieldGenerator
+  - MenuCamMover
+  - MenuController
+  - MenuObj
+  - PortalRare
+  - CrystalMover
+  - Doors
+  - PortalMythical
+  - PortalLegendary
+  - PortalEpic
+  - SS
+  - Left
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Game
+  - Background
+  - RenderBG
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

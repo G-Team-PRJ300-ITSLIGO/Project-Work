@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8b79494c63f0d3d42b28ee46d5b29a0c
+timeCreated: 1514756984
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MonodecoBold
+  fontNames:
+  - MonodecoBold
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
